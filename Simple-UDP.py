@@ -1,5 +1,5 @@
-#Author GadaLuBau
-#Remake LevrinceX
+#Author Levrince
+#Halo Kang Comot Code
 import socket
 import sys,os 
 import threading
@@ -7,10 +7,13 @@ import time
 import random 
 
 if len(sys.argv) < 5:
-  print("UDP-Flood By LevrinceX")
+  
+  print("█░░ █▀ █░█ █▀▀▄ █ █▄░█ ▄▀ █▀")
+  print("█░░ █▀ █░█ █▐█▀ █ █░▀█ █░ █▀")
+  print("▀▀▀ ▀▀ ░▀░ ▀░▀▀ ▀ ▀░░▀ ░▀ ▀▀")
   sys.exit("> Usage : python "+sys.argv[0]+"<ip> <port> <packet> <threads> <time>")
   
-print("> Remake By LevrinceX")
+print("> Dont Abuse! (Abuse Mati Aja)")
 ip = str(sys.argv[1])
 port = int(sys.argv[2])
 packet = int(sys.argv[3])
@@ -47,5 +50,5 @@ if __name__ == '__main__':
   try:
     main()
   except KeyboardInterrupt:
-    print('\nBye Byee')
+    print('\nDada')
     sys.exit()
